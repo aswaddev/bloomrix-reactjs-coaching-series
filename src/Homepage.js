@@ -1,17 +1,12 @@
 import React, { Component } from 'react';
+import Bulb from './Bulb';
 
 class Homepage extends Component {
   render() {
     return (
       <main>
         <p>Hello from Pakistan</p>
-        <div>
-          <ul>
-            <li>Lorem, ipsum dolor.</li>
-            <li>Unde, laborum repellendus?</li>
-            <li>Rerum, doloribus harum.</li>
-          </ul>
-        </div>
+        <Bulb />
       </main>
     );
   }

@@ -4,12 +4,14 @@ import Homepage from './Homepage';
 import Footer from './Footer';
 
 class App extends Component {
+  applicationName = 'React JS Series - Session 1';
+
   render() {
     return (
       <>
-        <Header />
+        <Header applicationName={this.applicationName} />
         <Homepage />
-        <Footer />
+        <Footer applicationName={this.applicationName} />
       </>
     );
   }

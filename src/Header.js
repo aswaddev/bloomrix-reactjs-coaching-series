@@ -9,7 +9,7 @@ class Header extends Component {
           className='heading'
           style={{ color: 'yellow', backgroundColor: 'rgb(0,0,0)' }}
         >
-          React JS Series
+          {this.props.applicationName}
         </h1>
       </header>
     );
